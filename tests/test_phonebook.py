@@ -1,7 +1,14 @@
 """
 This test contains tests for adding contacts, updating, delete and view contacts"""
+import os
+import sys
+import inspect
+currentdir = os.path.dirname(os.path.abspath(
+inspect.getfile(inspect.currentframe())))
+parentdir =os.path.dirname(currentdir)
+sys.path.insert(0,parentdir)
 from unittest import TestCase
-from phonebook import Contacts, CONTACTS 
+from app.phonebook import Contacts, CONTACTS 
 
 
 CONTACT = Contacts()
