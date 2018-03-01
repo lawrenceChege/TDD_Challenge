@@ -1,5 +1,4 @@
 {
-  "tests/test_phonebook.py": true, 
   "tests/test_phonebook.py::ContactsTestCase": true, 
   "tests/test_phonebook.py::TestCase": true
 }
